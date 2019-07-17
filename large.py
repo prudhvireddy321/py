@@ -1,6 +1,6 @@
-input_num=int(input())
+inp_num=int(input())
 list1=[]
-for i in range(input_num):
+for i in range(inp_num):
     x=input()
     list1.append(x)
 first=list1[0]
@@ -16,8 +16,8 @@ for i in range(len(list2)):
     res_str+=list2[i]
 new_list=[]
 temp_str=''
-if input_num>2:
-    for i in range(2,input_num):
+if inp_num>2:
+    for i in range(2,inp_num):
         temp=[]
         for i in range(len(list1[i])):
             if list1[i]==res_str[i]:
